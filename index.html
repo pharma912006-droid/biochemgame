@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>HEARTCARE: Save the Heart</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="hud"><div id="hl"><div>HEART</div><div class="bar"><i id="hb"></i></div><div>ENERGY</div><div class="bar e"><i id="eb"></i></div><div id="chips"></div><canvas id="ecg" width="160" height="36"></canvas></div><div id="hc"><div id="lv"></div><div id="ms"></div><div class="bar p"><i id="pb"></i></div></div><div id="hr"><div id="sc"></div><div id="ds"></div><div id="it"></div></div></div>
+<div id="toast"></div><div id="flash"></div><div id="ban"></div><div id="err"></div>
+<div id="pad"><div id="dp"><span class="hid"></span><button data-k="u">▲</button><span class="hid"></span><button data-k="l">◀</button><button data-k="d">▼</button><button data-k="r">▶</button></div><button id="ab">PULSE</button></div>
+<div id="load" class="scr on"><div class="logo">🫀 HEARTCARE</div><h1>SAVE THE HEART</h1><p>Preparing the bloodstream…</p></div>
+<div id="menu" class="scr"><div class="logo">🫀 HEARTCARE</div><h1>SAVE THE HEART</h1><p>Shrink into a medical explorer and protect the heart. Cardiovascular health can be protected through informed lifestyle choices, prevention and appropriate medical care.</p><button data-a="play">PLAY</button><button data-a="how">HOW TO PLAY</button><button data-a="set">SETTINGS</button><button data-a="about">ABOUT HEARTCARE</button></div>
+<div id="how" class="scr"><h2>HOW TO PLAY</h2><p>Steer with WASD / arrow keys, or drag your finger anywhere on a touch screen. Space (or a double-tap) uses a Pulse: magnet + slow motion.<br><br>🍊 Fruit heals · 🥇 Omega-3 bonus score · ⚡ Exercise speed boost · 💧 Water restores energy · 🛡 Shield protects · 💗 Heart orb stores a Pulse · 💊 Medicine heals over time<br><br>Avoid cholesterol plaques, blood clots, red-cell traffic and damaged walls. Reach the heart in all 3 levels.</p><button data-a="menu">BACK</button></div>
+<div id="about" class="scr"><h2>ABOUT HEARTCARE</h2><p>HEARTCARE is a cardiovascular health awareness project. This game teaches general prevention facts and does not replace advice from a doctor or pharmacist. No food or supplement cures cardiovascular disease.</p><button data-a="menu">BACK</button></div>
+<div id="set" class="scr"><h2>SETTINGS</h2><label>Volume <input type="range" id="vol" min="0" max="1" step=".05" value=".7"></label><button data-a="mute" id="bm"></button><button data-a="q" id="bq"></button><button data-a="pres" id="bp"></button><button data-a="fs">FULLSCREEN</button><button data-a="back">BACK</button></div>
+<div id="pause" class="scr"><h2>PAUSED</h2><button data-a="resume">RESUME</button><button data-a="restart">RESTART</button><button data-a="set">SETTINGS</button><button data-a="menu">MAIN MENU</button></div>
+<div id="over" class="scr"><h2>THE HEART NEEDS HELP</h2><p id="os"></p><button data-a="retry">RETRY</button><button data-a="menu">MAIN MENU</button></div>
+<div id="card" class="scr"><h2 id="ct"></h2><p id="cs"></p><button data-a="next">NEXT LEVEL</button></div>
+<div id="learn" class="scr"><div class="logo" id="lk"></div><h2 id="lt"></h2><p id="lf"></p><p id="ld"></p><button data-a="learned" id="lb">GOT IT — CONTINUE</button></div>
+<div id="win" class="scr"><h1>MISSION COMPLETED</h1><p id="ws"></p><ul id="wl"></ul><button data-a="play">PLAY AGAIN</button><button data-a="menu">MAIN MENU</button></div>
+<script src="lib/three.min.js"></script>
+<script src="game.js"></script></body></html>
